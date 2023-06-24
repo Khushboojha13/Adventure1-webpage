@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="adventure.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/d85d5a2c30.js" crossorigin="anonymous"></script>
+    
+     <header>
+        <section class="sec1">
+        <nav class="navbar flex">
+                    <h1 class=" logo heading">ADVENTURE </h1>
+                    <ul class=" nav-links flex">
+                     <li id="home"><a href="#" class="hover para" id="home" >Home</a></li>
+                     <li><a href="#" class="hover  para">Tours</a></li>
+                     <li><a href="#" class="hover  para">Explore</a></li>
+                     <li><a href="#" class="hover  para">About</a></li>
+                     <li><a href="#" class="hover btn para" id="coho">Contact</a></li>
+                </ul>
+                   <img src="https://www.svgrepo.com/show/489508/menu-burger-horizontal.svg" alt="" class="menubtn">
+            </nav>
+        <div class="top flex">
+            <p class="para">Explore The Colorful World</p>
+            <div id="line"></div>
+            <h1 class="heading">A WONDERFUL GIFT</h1>
+            <a href="#" class="hover btn para">Learn More</a>
+        </div>
+     </section>
+     <section class="sec2">
+            <div class="second flex">
+                <div class="head flex">
+                     <h1 class="heading">Upcoming Events</h1>
+                    <div id="line"></div>
+                </div>
+                <div class="head1 flex">
+                    <div class="bor flex">
+                    <div class="boxo" id="boxo1">
+                    </div>
+                  <h1 class="heading">Everest Camp Track</h1>
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn para">Learn more</a>
+
+                    </div>
+                     <div class="bor flex">
+                    <div class="boxo" id="boxo2"></div>
+                    <h1 class="heading">Climbing the mountain</h1>
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicin elit.</p>
+                    <a href="#" class="btn para">Learn more</a>
+                    </div>
+                </div>            </div>
+     </section>
+     <section class="sec3">
+        <div class="head2 flex">
+            <div class="bori flex" id="bori1">
+              <h1 class="heading">EXPLORE THE World</h1>
+              <div id="line"></div>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, deleniti. Eligendi quo quibusdam</p>
+               <a href="#" class="btn para">Learn more</a>
+            </div>
+            <div class="bori" id="bori2"></div>
+        </div>
+     </section>
+     <section class="sec4">
+          <div class="third flex">
+            <div class="first flex">
+                <h1 class="heading">UPCOMING TOURS AND DESTINATION WITH FUN
+                </h1>
+                <div id="line1"></div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, quod hic? Architecto qui molestias quis enim fuga accusantium!</p>
+                <a href="#" class="btn para">Learn more</a>
+            </div>
+            <div class="first1 flex">
+                <div class="img" id="img1"></div>
+                <div class="img" id="img2"></div>
+                <div class="img" id="img3"></div>
+                <div class="img" id="img4"></div>
+            </div>
+          </div>
+     </section>
+     <section class="sec5">
+        <div class="footer flex">
+            <p>123 Fifth Avenue,NY 10160,New York,USA|Phone:800-123-456|Email:contact@example.com<p>
+            <p>Copyright2 Outdoor Adventure</p>
+        </div>
+     </section>
+    </header>
+     <script>
+        const menuBtn= document.querySelector('.menubtn')
+        const navlinks= document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()={navlinks.classList.toggle('mobile-menu')})
+     </script>
+
+</body>
+</html>

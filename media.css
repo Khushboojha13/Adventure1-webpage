@@ -1,0 +1,76 @@
+@media screen and (max-width:428px){
+    .head1{
+        flex-direction: column;
+    }
+    .boxo{
+        height:250px;
+        width:250px;
+        transition:all ease-in-out .3s;
+    }
+    .boxo:hover{
+        height:280px;
+        width:280px;
+    }
+    .sec4{
+        margin-top: 230px;
+    }
+    .sec5{
+        margin-top: 250px;
+    }
+    .third{
+        flex-direction: column;
+    }        
+    
+    .first{
+        height:500px;
+        width:300px;
+    }
+    .first1{
+         gap:17px;
+        flex-direction: column;
+        margin-top: 100px;
+        height:600px;
+        width:300px;
+        margin-right: 19px;
+    }
+    .img{
+          transition:none;
+          height:185px;
+          width:100%;
+        
+    }
+
+    #img4{
+        display:none;
+    }
+     .img:hover{
+        height:185px;
+        width:100%;
+     }
+     .navbar{
+        padding:0;
+     }
+     .logo{
+        position:absolute;
+        left:30px;
+        top:30px;
+     }
+     .nav-links{          
+        /*ye mobie device me li ko set karega center me jaise hi hamburger pe click karenge*/
+        flex-direction: column;
+        width:100%;
+        height:100vh;
+        justify-content: center;
+        background: rgb(40, 12, 134);
+        margin-top: -900px;
+     }
+     .mobile-menu{
+        margin-top: 0px;
+     }
+        .nav-links li{
+        margin: 30px auto;
+     }
+     .menubtn{
+        display: block;
+     }
+    }
